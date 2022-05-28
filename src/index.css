@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--font-color-seconday);
+}
+
+:root{
+  --theme-color: #005AE0;
+  --font-color-seconday: #000000;
+  --white-color: #FFFFFF;
+  --secondary-background: #F2F6F9;
+}
+
+a{
+  text-decoration: none;
+}
+
+.section-padding{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-padding{
+    padding-left: 6rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .section-padding{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
